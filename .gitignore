@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Env / secrets
+.env
+
+# Output / generated
+traces/
+reports/
+tests/_test_output*/
+run_all.log
+batch_*.log
+_query.txt
+docs.zip
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# External benchmark repo (separate project)
+deep_research_bench/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
